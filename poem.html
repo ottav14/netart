@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+		* {
+			margin: 0;
+		}
+
+		body {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			height: 100vh;
+		}
+
+		canvas {
+			position: absolute;	
+		}
+	
+		p {
+			text-align: center;
+			padding-bottom: 1rem;
+		}
+
+		h1 {
+			margin-bottom: 1rem;
+		}
+
+		hr {
+			width: 40%;
+		}
+		</style>
+		<title>Poem B)</title>
+	</head>
+	<body>
+		<h1>hi</h1>
+		<a href="https://ottavhq.com/">here's my main site</a><br>
+		<p>
+			none of the linked projects are maintained! don't judge me!<br>
+			theres an easter egg if you click and hold outside a link or image
+		</p>
+
+		<p>
+			this site however lets you pee with your mouse. i think you can find a poem in that.<br>
+			it was fun using script and style tags like its&nbsp;2005<br>
+			you seem like you like this stuff so i imagine ur rendering the pages anyway,<br>
+			but if ur not then hit C-o in chrome or wtv u use and select this html file.
+		</p>
+		<hr>
+		<ol>
+			<li><b>heres some</b></li>
+		</ol>
+		<ul>
+			<li><i>parameter fullfillment</i></li>
+		</ul>
+		<canvas>
+	</body>
+	<script>
+		const canvas = document.querySelector('canvas');
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+
+		const ctx = canvas.getContext('2d');
+
+		document.addEventListener('mousemove', (e) => {
+			ctx.beginPath();
+			ctx.arc(e.clientX, e.clientY, 10, 0, 2*Math.PI);
+			ctx.fillStyle = '#ffff0022';
+			ctx.fill();
+			console.log('piss');
+		});
+	</script>
+</html>
+
