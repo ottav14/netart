@@ -1,0 +1,34 @@
+digraph {
+	rankdir=TB;
+
+	node [shape=box, style=rounded];
+	edge [fontname="monospace"];
+
+	Start    [shape=oval];
+
+	Broke    [shape=oval];
+	Rich     [shape=oval];
+
+	Homeless [shape=oval];
+	Trapped  [shape=oval];
+
+	Dead     [shape=oval];
+
+	Start -> Broke [label="Long"];
+	Start -> Rich  [label="Short"];
+
+	Broke -> Homeless [label="Don't work"]
+	Broke -> Trapped  [label="Work"]
+
+	Trapped -> Homeless [label="Trade again"]
+	Trapped -> Dead
+
+	Homeless -> Dead
+
+	Broke -> Homeless [label="Trade again"]
+
+	Rich -> Homeless  [label="Trade again"]
+	Rich -> Homeless  [label="Attempt living normally"]
+	
+}
+
