@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.a {
+    width: 20vw;
+    height: 25vh;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#a {
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyM2UxdDZxa2MwOWR3M2gybWs5dHp6cGZ5MGpxeGltZTdncGgwaXEwdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Wmfhma8KS5Io8/200.gif');
+}
+
+#b {
+    background-image: url('https://clipart-library.com/images/6irozkdbT.gif');
+}
+
+#c {
+    background-image: url('https://clipart-library.com/images/pT5ozkLjc.gif');
+}
+
+#d {
+    background-image: url('https://clipart-library.com/images/qiBXKERjT.gif');
+}
+
+#e {
+    background-image: url('https://i.kym-cdn.com/photos/images/original/003/188/928/0db.gif');
+}
+
+#f {
+    background-image: url('https://clipart-library.com/images/8cxKzpdqi.gif');
+}
+
+#g {
+    background-image: url('https://www.stripersonline.com/surftalk/uploads/gallery/album_81516/6bcd6d4b_old_man_wheelchair_sc_aa_hw.gif');
+}
+
+#h {
+    background-image: url('https://clipart-library.com/images/6TyozkBkc.gif');
+}
+
+#i {
+    background-image: url('https://content.presentermedia.com/content/animsp/00015000/15665/mad_scientist_with_clipboard_anim_md_nwm_v2.gif');
+}
+
+#j {
+    background-image: url('https://content.presentermedia.com/content/animsp/00014000/14966/frantic_business_man_md_nwm_v2.gif');
+}
+
+#k {
+    background-image: url('https://clipart-library.com/images/6crozkBqi.gif');
+}
+
+#l {
+    background-image: url('https://64.media.tumblr.com/9697c7eea5ed81dc1e942f88f7ea8eb7/032d3b58b5116330-64/s250x400/3942935b2547ed7f566c44bbb815aba024d84ecc.gifv');
+}
+
+#m {
+    background-image: url('https://64.media.tumblr.com/312c80c2e13d7463a22a052c9a55a9db/032d3b58b5116330-5d/s400x600/5eea978b3e5c0c10427e60a79146d5a77472291f.gifv');
+}
+
+#n {
+    background-image: url('https://64.media.tumblr.com/9a3008faf65939809ab0a7d2dfcee968/032d3b58b5116330-6d/s400x600/89100042dc2b7439971575b06c333ae39581bd56.gifv');
+}
+
+#o {
+    background-image: url('https://clipart-library.com/images/qiBXKE8kT.gif');
+}
+
+#p {
+    background-image: url('https://media.baamboozle.com/uploads/images/333414/1625933864_182433_gif-url.gif');
+}
+
+#q {
+    background-image: url('https://i.gifer.com/embedded/download/4n1V.gif');
+}
+
+#r {
+    background-image: url('https://i.pinimg.com/originals/c4/5d/c1/c45dc13a82b9f658a938cd078caf4117.gif');
+}
+
+#s {
+    background-image: url('https://birmingham.apaleagues.com/Uploads/birmingham/animated_gifs/poolplayerracking_animationfactory.gif');
+}
+
+#t {
+    background-image: url('https://www.gifss.com/profesiones/cantantes/cantante-karaoke.gif');
+}
+
