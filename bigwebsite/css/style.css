@@ -1,1 +1,39 @@
-/* hi! */
+* {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    margin: 0;
+    font-size: 14pt;
+    color: #ededed;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 3000px;
+    height: 3500px;
+}
+
+.me-talking {
+    padding: 2rem;
+    width: 40vw;
+    border: 1px solid #ededed;
+    text-align: left;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#canvas {
+    border-top: 1px solid #ededed;
+}
+
+img {
+    margin: 2rem;
+    border: 1px solid #ededed;
+    opacity: 0.7;
+}
