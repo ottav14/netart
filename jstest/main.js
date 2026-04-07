@@ -1,5 +1,5 @@
 const moveSpeed = 10;
-const zoomSpeed = 0.1;
+const zoomSpeed = 0.03;
 const minZoom = 30;
 const maxZoom = 250;
 const pointSize = 5;
@@ -163,7 +163,7 @@ const update = () => {
     camera.x = lerp(camera.x, camera.desiredX, panSmoothing);
     camera.y = lerp(camera.y, camera.desiredY, panSmoothing);
 
-	const newZoom = camera.zoom * (1 - zoomSpeed * (Number(keysHeld.has('ArrowDown')) - Number(keysHeld.has('ArrowUp'))));
+	const newZoom = camera.desiredZoom * (1 - zoomSpeed * (Number(keysHeld.has('ArrowDown')) - Number(keysHeld.has('ArrowUp'))));
 	camera.desiredZoom = newZoom >= minZoom && newZoom <= maxZoom ? newZoom : camera.desiredZoom;
     camera.zoom = lerp(camera.zoom, camera.desiredZoom, zoomSmoothing);
 
